@@ -17,6 +17,10 @@
 		62143FD513947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62143FD413947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.m */; };
 		62143FD813947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62143FD613947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.xib */; };
 		62143FE113947F3400EC38E3 /* DCFineTuneSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 62143FE013947F3400EC38E3 /* DCFineTuneSlider.m */; };
+		62163F691394C42200EC3473 /* chevron~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 62163F671394C42200EC3473 /* chevron~iphone.png */; };
+		62163F6A1394C42200EC3473 /* chevron~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62163F681394C42200EC3473 /* chevron~iphone@2x.png */; };
+		62163F6D1394C44F00EC3473 /* chevron-rev~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 62163F6B1394C44F00EC3473 /* chevron-rev~iphone.png */; };
+		62163F6E1394C44F00EC3473 /* chevron-rev~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62163F6C1394C44F00EC3473 /* chevron-rev~iphone@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		62143FD713947E8D00EC38E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DCFineTuneSliderDemoViewController.xib; sourceTree = "<group>"; };
 		62143FDF13947F3400EC38E3 /* DCFineTuneSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFineTuneSlider.h; sourceTree = "<group>"; };
 		62143FE013947F3400EC38E3 /* DCFineTuneSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFineTuneSlider.m; sourceTree = "<group>"; };
+		62163F671394C42200EC3473 /* chevron~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chevron~iphone.png"; sourceTree = "<group>"; };
+		62163F681394C42200EC3473 /* chevron~iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chevron~iphone@2x.png"; sourceTree = "<group>"; };
+		62163F6B1394C44F00EC3473 /* chevron-rev~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chevron-rev~iphone.png"; sourceTree = "<group>"; };
+		62163F6C1394C44F00EC3473 /* chevron-rev~iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chevron-rev~iphone@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,7 @@
 				62143FD313947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.h */,
 				62143FD413947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.m */,
 				62143FD613947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.xib */,
+				62163F611394B3FD00EC3473 /* Images */,
 				62143FC513947E8D00EC38E3 /* Supporting Files */,
 			);
 			path = DCFineTuneSliderDemo;
@@ -113,6 +122,17 @@
 			);
 			name = DCFineTuneSlider;
 			path = ../DCFineTuneSlider;
+			sourceTree = "<group>";
+		};
+		62163F611394B3FD00EC3473 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				62163F6B1394C44F00EC3473 /* chevron-rev~iphone.png */,
+				62163F6C1394C44F00EC3473 /* chevron-rev~iphone@2x.png */,
+				62163F671394C42200EC3473 /* chevron~iphone.png */,
+				62163F681394C42200EC3473 /* chevron~iphone@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +185,10 @@
 				62143FC913947E8D00EC38E3 /* InfoPlist.strings in Resources */,
 				62143FD213947E8D00EC38E3 /* MainWindow.xib in Resources */,
 				62143FD813947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.xib in Resources */,
+				62163F691394C42200EC3473 /* chevron~iphone.png in Resources */,
+				62163F6A1394C42200EC3473 /* chevron~iphone@2x.png in Resources */,
+				62163F6D1394C44F00EC3473 /* chevron-rev~iphone.png in Resources */,
+				62163F6E1394C44F00EC3473 /* chevron-rev~iphone@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +320,7 @@
 				62143FDD13947E8D00EC38E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

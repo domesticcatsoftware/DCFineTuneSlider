@@ -3,43 +3,50 @@
 //  DCFineTuneSliderDemo
 //
 //  Created by Patrick Richards on 31/05/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Domestic Cat Software. All rights reserved.
 //
 
 #import "DCFineTuneSliderDemoViewController.h"
 #import "DCFineTuneSlider.h"
 
 @implementation DCFineTuneSliderDemoViewController
+@synthesize slider, label;
 
-- (void)didReceiveMemoryWarning
+- (void)dealloc
 {
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
+	[slider release];
+	[label release];
+
+	[super dealloc];
 }
 
-#pragma mark - View lifecycle
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+	[self.slider.decreaseButton setImage:[UIImage imageNamed:@"chevron-rev~iphone"] forState:UIControlStateNormal];
+	self.slider.decreaseButton.contentEdgeInsets = UIEdgeInsetsMake(1.0, 0, 0, 0);
+
+	[self.slider.increaseButton setImage:[UIImage imageNamed:@"chevron~iphone"] forState:UIControlStateNormal];
+	self.slider.increaseButton.contentEdgeInsets = UIEdgeInsetsMake(1.0, 0, 0, 0);
+
+	self.slider.fineTuneAmount = .01;
+
+	self.slider.valueChangedHandler = ^(id sender) {
+		self.label.text = [NSString stringWithFormat:@"Value: %0.2f", [(UISlider *)sender value]];
+	};
+
+	[self.view addSubview:slider];
 }
-*/
 
 - (void)viewDidUnload
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+	[super viewDidUnload];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	return YES;
 }
 
 @end
