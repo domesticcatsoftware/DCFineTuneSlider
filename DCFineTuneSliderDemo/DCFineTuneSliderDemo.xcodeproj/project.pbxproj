@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62143FBF13947E8D00EC38E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62143FBE13947E8D00EC38E3 /* UIKit.framework */; };
+		62143FC113947E8D00EC38E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62143FC013947E8D00EC38E3 /* Foundation.framework */; };
+		62143FC313947E8D00EC38E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62143FC213947E8D00EC38E3 /* CoreGraphics.framework */; };
+		62143FC913947E8D00EC38E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62143FC713947E8D00EC38E3 /* InfoPlist.strings */; };
+		62143FCB13947E8D00EC38E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62143FCA13947E8D00EC38E3 /* main.m */; };
+		62143FCF13947E8D00EC38E3 /* DCFineTuneSliderDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62143FCE13947E8D00EC38E3 /* DCFineTuneSliderDemoAppDelegate.m */; };
+		62143FD213947E8D00EC38E3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62143FD013947E8D00EC38E3 /* MainWindow.xib */; };
+		62143FD513947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62143FD413947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.m */; };
+		62143FD813947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62143FD613947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.xib */; };
+		62143FE113947F3400EC38E3 /* DCFineTuneSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 62143FE013947F3400EC38E3 /* DCFineTuneSlider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62143FBA13947E8D00EC38E3 /* DCFineTuneSliderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCFineTuneSliderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62143FBE13947E8D00EC38E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62143FC013947E8D00EC38E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62143FC213947E8D00EC38E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62143FC613947E8D00EC38E3 /* DCFineTuneSliderDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCFineTuneSliderDemo-Info.plist"; sourceTree = "<group>"; };
+		62143FC813947E8D00EC38E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62143FCA13947E8D00EC38E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62143FCC13947E8D00EC38E3 /* DCFineTuneSliderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCFineTuneSliderDemo-Prefix.pch"; sourceTree = "<group>"; };
+		62143FCD13947E8D00EC38E3 /* DCFineTuneSliderDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFineTuneSliderDemoAppDelegate.h; sourceTree = "<group>"; };
+		62143FCE13947E8D00EC38E3 /* DCFineTuneSliderDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCFineTuneSliderDemoAppDelegate.m; sourceTree = "<group>"; };
+		62143FD113947E8D00EC38E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		62143FD313947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFineTuneSliderDemoViewController.h; sourceTree = "<group>"; };
+		62143FD413947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCFineTuneSliderDemoViewController.m; sourceTree = "<group>"; };
+		62143FD713947E8D00EC38E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DCFineTuneSliderDemoViewController.xib; sourceTree = "<group>"; };
+		62143FDF13947F3400EC38E3 /* DCFineTuneSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFineTuneSlider.h; sourceTree = "<group>"; };
+		62143FE013947F3400EC38E3 /* DCFineTuneSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFineTuneSlider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62143FB713947E8D00EC38E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62143FBF13947E8D00EC38E3 /* UIKit.framework in Frameworks */,
+				62143FC113947E8D00EC38E3 /* Foundation.framework in Frameworks */,
+				62143FC313947E8D00EC38E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62143FAF13947E8D00EC38E3 = {
+			isa = PBXGroup;
+			children = (
+				62143FDE13947F3400EC38E3 /* DCFineTuneSlider */,
+				62143FC413947E8D00EC38E3 /* DCFineTuneSliderDemo */,
+				62143FBD13947E8D00EC38E3 /* Frameworks */,
+				62143FBB13947E8D00EC38E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62143FBB13947E8D00EC38E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62143FBA13947E8D00EC38E3 /* DCFineTuneSliderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62143FBD13947E8D00EC38E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62143FBE13947E8D00EC38E3 /* UIKit.framework */,
+				62143FC013947E8D00EC38E3 /* Foundation.framework */,
+				62143FC213947E8D00EC38E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62143FC413947E8D00EC38E3 /* DCFineTuneSliderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				62143FCD13947E8D00EC38E3 /* DCFineTuneSliderDemoAppDelegate.h */,
+				62143FCE13947E8D00EC38E3 /* DCFineTuneSliderDemoAppDelegate.m */,
+				62143FD013947E8D00EC38E3 /* MainWindow.xib */,
+				62143FD313947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.h */,
+				62143FD413947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.m */,
+				62143FD613947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.xib */,
+				62143FC513947E8D00EC38E3 /* Supporting Files */,
+			);
+			path = DCFineTuneSliderDemo;
+			sourceTree = "<group>";
+		};
+		62143FC513947E8D00EC38E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62143FC613947E8D00EC38E3 /* DCFineTuneSliderDemo-Info.plist */,
+				62143FC713947E8D00EC38E3 /* InfoPlist.strings */,
+				62143FCA13947E8D00EC38E3 /* main.m */,
+				62143FCC13947E8D00EC38E3 /* DCFineTuneSliderDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62143FDE13947F3400EC38E3 /* DCFineTuneSlider */ = {
+			isa = PBXGroup;
+			children = (
+				62143FDF13947F3400EC38E3 /* DCFineTuneSlider.h */,
+				62143FE013947F3400EC38E3 /* DCFineTuneSlider.m */,
+			);
+			name = DCFineTuneSlider;
+			path = ../DCFineTuneSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62143FB913947E8D00EC38E3 /* DCFineTuneSliderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62143FDB13947E8D00EC38E3 /* Build configuration list for PBXNativeTarget "DCFineTuneSliderDemo" */;
+			buildPhases = (
+				62143FB613947E8D00EC38E3 /* Sources */,
+				62143FB713947E8D00EC38E3 /* Frameworks */,
+				62143FB813947E8D00EC38E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCFineTuneSliderDemo;
+			productName = DCFineTuneSliderDemo;
+			productReference = 62143FBA13947E8D00EC38E3 /* DCFineTuneSliderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62143FB113947E8D00EC38E3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 62143FB413947E8D00EC38E3 /* Build configuration list for PBXProject "DCFineTuneSliderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62143FAF13947E8D00EC38E3;
+			productRefGroup = 62143FBB13947E8D00EC38E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62143FB913947E8D00EC38E3 /* DCFineTuneSliderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62143FB813947E8D00EC38E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62143FC913947E8D00EC38E3 /* InfoPlist.strings in Resources */,
+				62143FD213947E8D00EC38E3 /* MainWindow.xib in Resources */,
+				62143FD813947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62143FB613947E8D00EC38E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62143FCB13947E8D00EC38E3 /* main.m in Sources */,
+				62143FCF13947E8D00EC38E3 /* DCFineTuneSliderDemoAppDelegate.m in Sources */,
+				62143FD513947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.m in Sources */,
+				62143FE113947F3400EC38E3 /* DCFineTuneSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62143FC713947E8D00EC38E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62143FC813947E8D00EC38E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62143FD013947E8D00EC38E3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62143FD113947E8D00EC38E3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		62143FD613947E8D00EC38E3 /* DCFineTuneSliderDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62143FD713947E8D00EC38E3 /* en */,
+			);
+			name = DCFineTuneSliderDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62143FD913947E8D00EC38E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62143FDA13947E8D00EC38E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62143FDC13947E8D00EC38E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCFineTuneSliderDemo/DCFineTuneSliderDemo-Prefix.pch";
+				INFOPLIST_FILE = "DCFineTuneSliderDemo/DCFineTuneSliderDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62143FDD13947E8D00EC38E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCFineTuneSliderDemo/DCFineTuneSliderDemo-Prefix.pch";
+				INFOPLIST_FILE = "DCFineTuneSliderDemo/DCFineTuneSliderDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62143FB413947E8D00EC38E3 /* Build configuration list for PBXProject "DCFineTuneSliderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62143FD913947E8D00EC38E3 /* Debug */,
+				62143FDA13947E8D00EC38E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62143FDB13947E8D00EC38E3 /* Build configuration list for PBXNativeTarget "DCFineTuneSliderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62143FDC13947E8D00EC38E3 /* Debug */,
+				62143FDD13947E8D00EC38E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62143FB113947E8D00EC38E3 /* Project object */;
+}
